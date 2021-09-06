@@ -40,11 +40,11 @@ https://www.gamestate.com
  
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
-<img src="images/gamestate-home" width="375px" alt="omschrijving van de pagina">
+<img src="images/gamestate-home" width="375px" alt="eeste pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="images/gamestate-games" width="375px" alt="omschrijving van de pagina">
+<img src="images/gamestate-games" width="375px" alt="tweede pagina">
  
 </details>
 
