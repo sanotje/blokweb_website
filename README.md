@@ -39,11 +39,11 @@ Surface plane
 https://www.gamestate.com
  
 #### Screenshot(s) van de eerste pagina (small screen): 
-hier de naam van de pagina  
+Home pagina van Gamestate 
 <img src="images/gamestate-home.png" width="375px" alt="eeste pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
+Games to play pagina van Gamestate  
 <img src="images/gamestate-games.png" width="375px" alt="tweede pagina">
  
 </details>
