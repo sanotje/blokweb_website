@@ -58,6 +58,7 @@ Games to play pagina van Gamestate
 
 <details>
 <summary>uitwerken na afloop 2e werkgroep</summary>
+ <p>Voor de werkgroep moesten we de typografie opdracht maken. Tijdens het maken van de opdracht liep ik tegen een aantal dingen aan. Uiteindelijk is het me wel gelukt om in grote lijnen 3 blokjes na te maken.</p>
 
 ### de hele pagina: 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
