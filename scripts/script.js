@@ -9,3 +9,7 @@ hamburgermenu.addEventListener('click',menuUitklappen);
 function menuUitklappen(){
 navigatie.classList.toggle('uitklappen');
 }
+
+
+
+ 
