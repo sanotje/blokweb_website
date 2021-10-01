@@ -204,15 +204,16 @@ margin: 3em;
 max-width: 27em;
 }
 
-#promo{  
+.promo{  
   display:flex;
-  position: relative;
+  
 }
 
-#promo img{
+.promo img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 50%;
-  justify-content:center;
-  align-items:center;
 }
 
 .gsthuis{
@@ -255,9 +256,53 @@ div.rotate:hover div {
   animation-duration:1s;
 }
 
-#games{
-   
+.titel {
+  grid-area: titel;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
 }
+
+/* The grid container */
+.grid-container {
+  display: grid;
+  grid-column-gap: 1em;
+  grid-template-areas: 
+    'titel titel titel titel titel titel' 
+    'rabbids rabbids arcade arcade mario mario';
+  /* grid-column-gap: 10px; - if you want gap between the columns */
+} 
+
+.rabbids,
+.arcade,
+.mario {
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Style the left column */
+.rabbids {
+  grid-area: left;
+}
+
+.rabbids img {
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  max-width: 23em;
+}
+
+/* Style the middle column */
+.arcade {
+  grid-area: middle;
+}
+
+/* Style the right column */
+.mario {
+  grid-area: right;
+}
+
+
 
 button{
   height:3em;
@@ -300,15 +345,12 @@ footer li:first-of-type{
     grid-column: span 2;
   }
 
-
-  @media screen and (min-width:800px) {
-    
-    .opening{
-      flex-direction: row;
+  @media (max-width: 700px) {
+    .grid-container  {
+      grid-template-areas: 
+        'titel titel titel titel titel titel' 
+        'rabbids rabbids rabbids rabbids rabbids rabbids' 
+        'arcade arcade arcade arcade arcade arcade' 
+        'mario mario mario mario mario mario';
     }
-
-
   }
- 
-
-
