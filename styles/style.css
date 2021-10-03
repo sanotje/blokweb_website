@@ -214,7 +214,7 @@ max-width: 27em;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 62%;
   margin-bottom: 2em;
   margin-top: 2em;
 }
@@ -259,6 +259,11 @@ div.rotate:hover div {
   animation-duration:1s;
 }
 
+.kaart{
+  width: 100%;
+  margin-top: 3em;
+}
+
 .grid {
   display: flex;
   flex-direction: column;
@@ -276,6 +281,17 @@ div.rotate:hover div {
 .arcade,
 .mario {
   padding: 10px;
+}
+
+.vip{
+  width: 100%;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.tickets{
+  width: 100%;
+  margin-top: 2em;
 }
 
 button{
@@ -323,6 +339,12 @@ footer li:first-of-type{
   .socialmedia{
     display: grid;
     grid-template-columns:1fr 1fr;
+  }
+
+  .socialmedia img{
+    width: 8em;
+    display: flex;
+    justify-content: center;
   }
   
   
