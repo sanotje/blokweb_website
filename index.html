@@ -11,7 +11,6 @@
 	<title>GAMESTATE</title>
 	
 	<link href="styles/style.css" rel="stylesheet">
-	<!--<link rel="icon" type="image/svg+xml" href="images/favicon.svg">-->
 </head>
 
 <body>
@@ -22,6 +21,7 @@
 		<img class='hamburgermenu' src="images/hamburgermenu.png" alt="menu"/>
 		<ul class='navigatie'>
 			<li><input type="search" placeholder="zoeken..."></li>
+			<!--code voor de zoekbalk-->
 			<li><a href="index.html">Home</a></li>
 			<li><a href="games.html">Games</a></li>
 			<li>Locaties</li>
@@ -30,12 +30,14 @@
 			<li>Webshop</li>
 		</ul>
 	</nav>
+	<!--de code voor de navigatie, de navigatie is verwerkt in een hamburgermenu-->
 	</header>
 
 <main>
 	<section class="background">
-		<img src="images/gs-background.jpeg" alt="background">
+		<img  src="images/gs-background.jpeg" alt="background">
 	</section>
+	<!--de code voor de afbeelding die onder de navigatie te zien is. Deze heeft een aparte klasse omdat deze afbeelding op beode paginas te zien is en daarbiij om een andere manier geschaald is als andere afbeeldingen waardoor deze een aparte klasse heeft.-->
 
 <h2>Stap Gamestate binnen, upload je speelkaart en start met gamen!</h2>
 
@@ -45,12 +47,14 @@
 <img src="images/game3.png" alt="game3">
 <img src="images/game4.png" alt="game4">
 </section>
+<!--de code voor de afbeeldingen slidebar. Deze afbeeldingen bevinden zich in een aparte section. Deze afbeeldingen hebben een aparte grootte en moeten anders staan als andere afbeeldingen waardoor ze gegroepeerd zijn in een aparte sectie met daarbij een aparte klasse.-->
 
 <section class="opening">
 		<div><h2>Gamestate is geopend! 🎉</h2>
 		<p>Are you ready to play? 🕹 YES! 🎉 Zien wij jou binnenkort bij Gamestate? Je bent van harte welkom bij Gamestate met vrije toegang. Reserveren is niet mogelijk en je hebt geen testbewijs of QR code nodig, ook niet na 25 september!</p>
 		<h3>Locatie</h3>
 		<p>Amsterdam, Eindhoven, Kerkrade, Rotterdam, Utrecht, Breda en Den Haag</p></div>
+		    <!--deze elemnten staan in een aparte div omdat de regelgroote en positionering anders andere regels zou opvolgen. daarom heb ik deze elemnten in een aparte div vermeld zodat het stylen zou lukken-->
 		<img src="images/gs-gs.png" alt="gs">
 </section>
 
@@ -58,16 +62,18 @@
 	<a href="https://youtu.be/7Ws6W6hALfs?t=50">
 		<img src="images/gs-promo.png" alt="promo">
 	</a>
+	<!--deze code is voor de afbeelding met video link. deze bevindt zich in een aparte sectie met klasse omdat de afbeelding anders gestyled is dan de anderen. als er geen klasse zou zijn met eigen styles zou de afbeelding de gehele breedte van het scherm overnemen.-->
 </section>
 
 <section class="gsthuis">
 		<div><h2>Gamestate nu ook bij jou thuis!</h2>
 		<p>Scoor nu extra play value via onze webshop www.shop.gamestate.com! Wie maak jij blij met die exclusieve #VIP deal?</p>	
 	</div>
-    
+    <!--deze elemnten staan in een aparte div omdat de regelgroote en positionering anders andere regels zou opvolgen. daarom heb ik deze elemnten in een aparte div vermeld zodat het stylen zou lukken-->
     <div class="rotate">
 	<div><img src="images/gs-cadeaubox.png" alt="cadeau"></div>
 	</div>
+	<!--deze code zorgt voor een animatie. de animatie is het roteren van de afbeelding door er overheen te hoveren-->
 </section>
    
 </main>
@@ -85,6 +91,7 @@
 		<p>Mall of The Netherlands</p>
 		<p>Utrecht</p>
 	</ul>
+	<!--een unorderd list voor de locaties. bestaat uit p elementen, ze zijn zo ook gemakkelijk te benoemen en te stylen-->
 </section>
 
 <section class="socialmedia">
@@ -93,13 +100,14 @@
 <img src="images/gs-facebook.png" alt="facebook"></a>
 <a href="https://www.instagram.com/gamestate_official/?hl=nl">
 	<img src="images/gs-instagram.png" alt="instagram"></a>
+	<!--een sectie met een klasse voor de social media content. Dit bevind zich in een aparte klasse omdat de elementen hierin andere groottes hebben, door ze in deze klasse te plaatsen zijn ze gemakkelijk te stylen-->
 </section>
 
 <p>Gamestate is lid van FEC Nederland.</p>
 <img src="images/gs-logowit.png" alt="logo">
 <p>© 2021 Gamestate, Alrecrea & JARR are Veltmeijer Group companies.</p>
 <p>Huisregels | Disclaimer | Privacy Statement</p>
-
+<!--Deze codes zijn voor de footer van de website.-->
 </footer>
 
 	<script src="scripts/script.js"></script>

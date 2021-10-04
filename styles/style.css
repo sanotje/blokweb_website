@@ -10,9 +10,12 @@ CSS Document
   font-weight: 500;
   font-style: normal;
   font-display: swap;
+  /*deze code is voor het importeren van het font. dit font stond namleijk niet tussen de lijst en moest via google geimporteerd worden*/
 }
 
 body{
+  background-color: #06030C;
+color:white;
   margin:0;
   font-family: 'Gotham' sans-serif;
   font-weight: 500;
@@ -22,12 +25,14 @@ body{
 img {
   max-width: 100%;
   height: auto;
+  /*algemene styling voor de afbeeldingen, de gehele breedthe waarbij de hoogte automatisch meegroeit*/
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  /*algemene styling voor de unoderd lijsten*/
 }
 
 header{
@@ -38,6 +43,7 @@ header{
   top: 0;
 z-index:2;
 font-family: GothamBlack;
+/*styling voor de navigatie, door position fixed zal de gehele balk oop het boven gedeelte van de website te zien zijn, ook bij scrollen*/
 }
 
 nav{
@@ -100,7 +106,7 @@ nav a{
   padding: 0;
   display:flex;
   align-items:center;
-  /*margin-left: 40em;*/
+  /*styling voor de zoekbalk die te zien is als het hamburgermenu wordt uitgeklapt*/
 }
 
 input {
@@ -129,12 +135,6 @@ input:focus {
   transform: translateX(0);
 }
 
-body{
-background-color: #06030C;
-color:white;
-font-family: GothamBlack;
-}
-
 p{
   text-align: center;
 }
@@ -152,12 +152,6 @@ h4{
   text-align: center;
 }
 
-h5{
-  margin-top: -8%;
-  padding: 3%;
-  text-align: center;
-}
-
 .background img{
   max-height: 25em;
   width:100%;
@@ -171,16 +165,13 @@ h5{
   overflow-x: auto;
 }
 
-.slide::-webkit-scrollbar{
-  width: 0;
-}
-
 .slide img{
   flex: 1;
   min-width: 12em;
   height: auto;
   text-align: center;  
   margin-right: 1em;
+/*styling voor de slidebar op de homepagina, op desktop formaat zie je de afbeeldingen naast elkaar en op een mobilde device kan je horizontaal door de afbeeldingen heen scrollen*/
 }
 
 .opening{
@@ -217,6 +208,8 @@ max-width: 27em;
   width: 62%;
   margin-bottom: 2em;
   margin-top: 2em;
+  /*styling voor de positionering en grootte van de video link*/
+
 }
 
 .gsthuis{
@@ -257,11 +250,8 @@ flex-direction: column;
 div.rotate:hover div {
   animation-name:rotate-animation;
   animation-duration:1s;
-}
+  /*de afbeelding zal in 1seconde roteren doormiddel van een hover*/
 
-.kaart{
-  width: 100%;
-  margin-top: 3em;
 }
 
 .grid {
@@ -269,13 +259,6 @@ div.rotate:hover div {
   flex-direction: column;
   grid-column-gap: 1em;
 } 
-
-.titel {
-  grid-area: titel;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-}
 
 .rabbids,
 .arcade,
@@ -287,11 +270,6 @@ div.rotate:hover div {
   width: 100%;
   margin-top: 1em;
   margin-bottom: 2em;
-}
-
-.tickets{
-  width: 100%;
-  margin-top: 2em;
 }
 
 button{
@@ -306,6 +284,7 @@ button{
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 3em;
+/*styling van de inschrijf button*/
 }
 
 button a{
@@ -346,7 +325,7 @@ footer li:first-of-type{
     display: flex;
     justify-content: center;
   }
-  
+
   
   .socialmedia p{
     grid-column: span 2;
@@ -363,5 +342,6 @@ footer li:first-of-type{
 
 .gsthuis{
   flex-direction: row;
+  /*styling mediaquery*/
 }
   }
