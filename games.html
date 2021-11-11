@@ -12,11 +12,12 @@
 <body>
 	<header>
 		<nav>
-			<h1>GAMESTATE</h1> <img src="images/gs-logo.png" alt="logo" /> <img class='hamburgermenu' src="images/hamburgermenu.png" alt="menu" />
+			<h1>GAMESTATE</h1> <img src="images/gs-logo.png" alt="logo" /> <button class="menu"><img class='hamburgermenu' src="images/hamburgermenu.png" alt="menu" /></button>
 			<ul class='navigatie'>
 				<li>
 					<input type="search" placeholder="zoeken...">
 				</li>
+				<!--code voor de zoekbalk-->
 				<li><a href="index.html">Home</a></li>
 				<li><a href="games.html">Games</a></li>
 				<li>Locaties</li>
@@ -25,6 +26,7 @@
 				<li>Webshop</li>
 			</ul>
 		</nav>
+		<!--de code voor de navigatie, de navigatie is verwerkt in een hamburgermenu-->
 	</header>
 	<main>
 		<section class="background"> <img src="images/gs-background.jpeg" alt="background"> </section>
@@ -76,14 +78,18 @@
 				<li>Mall of The Netherlands</li>
 				<li>Utrecht</li>
 			</ul>
+			<!--een unorderd list voor de locaties. bestaat uit p elementen, ze zijn zo ook gemakkelijk te benoemen en te stylen-->
 		</section>
 		<section class="socialmedia">
 			<p>VOLG ONS</p>
 			<a href="https://nl-nl.facebook.com/gamestate.nl/"> <img src="images/gs-facebook.png" alt="facebook"></a>
 			<a href="https://www.instagram.com/gamestate_official/?hl=nl"> <img src="images/gs-instagram.png" alt="instagram"></a>
+			<!--een sectie met een klasse voor de social media content. Dit bevind zich in een aparte klasse omdat de elementen hierin andere groottes hebben, door ze in deze klasse te plaatsen zijn ze gemakkelijk te stylen-->
+		</section>
 		<p>Gamestate is lid van FEC Nederland.</p> <img src="images/gs-logowit.png" alt="logo">
 		<p>© 2021 Gamestate, Alrecrea & JARR are Veltmeijer Group companies.</p>
 		<p>Huisregels | Disclaimer | Privacy Statement</p>
+		<!--Deze codes zijn voor de footer van de website.-->
 	</footer>
 	<script src="scripts/script.js"></script>
 </body>

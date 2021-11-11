@@ -13,11 +13,17 @@ CSS Document
   /*deze code is voor het importeren van het font. dit font stond namleijk niet tussen de lijst en moest via google geimporteerd worden*/;
 }
 
+:root{
+	--background:#06030C;
+	--maincolor: #140922;
+	--text:white;
+}
+
 body {
-	background-color: #06030C;
-	color: white;
+	background-color: var(--background);
+	color: var(--text);
 	margin: 0;
-	font-family: 'Gotham' sans-serif;
+	font-family: 'Gotham',sans-serif;
 	font-weight: 500;
 	font-style: normal;
 }
@@ -32,17 +38,19 @@ ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	font-family: 'Gotham',sans-serif;
+
   /*algemene styling voor de unoderd lijsten*/;
 }
 
 header {
-	background-color: #140922;
+	background-color: var(--maincolor);
 	position: fixed;
 	left: 0;
 	right: 0;
 	top: 0;
 	z-index: 2;
-	font-family: GothamBlack;
+	font-family: 'GothamBlack',sans-serif;
 /*styling voor de navigatie, door position fixed zal de gehele balk oop het boven gedeelte van de website te zien zijn, ook bij scrollen*/;
 }
 
@@ -51,15 +59,7 @@ nav {
 	justify-content: space-between;
 }
 
-h1 {
-	top: 0;
-	margin: 0;
-	padding: .5em;
-	color: white;
-	font-size: 25px;
-	text-align: center;
-	z-index: 1;
-}
+
 
 nav img:first-of-type {
 	order: -1;
@@ -75,7 +75,7 @@ nav img:last-of-type {
 }
 
 nav ul {
-	background-color: #140922;
+	background-color: var(--maincolor);
 	position: fixed;
 	transform: translateX(100%);
 	transition: 1s;
@@ -85,7 +85,7 @@ nav ul {
 	left: 0;
 	padding: 3em;
 	list-style-type: none;
-	font-size: 25px;
+	font-size: 1.5em;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
@@ -94,7 +94,7 @@ nav ul {
 }
 
 nav a {
-	color: white;
+	color: var(--text);
 	text-decoration: none;
 }
 
@@ -132,6 +132,23 @@ input:focus {
 
 .uitklappen {
 	transform: translateX(0);
+}
+
+.menu{
+	background-color: var(--maincolor);
+	margin-top: 1em;
+	margin-bottom: 0;
+	margin-right: 0;
+}
+
+h1 {
+	top: 0;
+	margin: 0;
+	padding: .7em;
+	color: var(--text);
+	z-index: 1;
+	font-family: 'Gotham',sans-serif;
+
 }
 
 p {
@@ -259,7 +276,7 @@ div.rotate:hover div {
 .rabbids,
 .arcade,
 .mario {
-	padding: 10px;
+	padding: 0.6em;
 }
 
 .vip {
@@ -282,13 +299,13 @@ button {
 }
 
 button a {
-	color: white;
+	color: var(--text);
 	text-decoration: none;
 	font-weight: bold;
 }
 
 footer {
-	background-color: #140922;
+	background-color: var(--maincolor);
 	padding: 5%;
 }
 
